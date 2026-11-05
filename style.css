@@ -56,6 +56,13 @@ html, body {
   gap: 20px;           
 }
 
+.navbar-logo img {
+  height: 30px;
+  width: auto; 
+  display: block;
+}
+
+
 .nav-links a {
   color: #ffffff;
   text-decoration: none;
