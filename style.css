@@ -22,7 +22,7 @@ html, body {
 .button-link {
   display: inline-block; 
   padding: 10px 20px;
-  background-color: #white;
+  background-color: #115e78;
   color: white;
   text-decoration: none;
   border-radius: 4px;
@@ -31,7 +31,7 @@ html, body {
 }
 
 .button-link:hover {
-  background-color: #7a078f;
+  background-color: #1788ad;
 }
 
 
