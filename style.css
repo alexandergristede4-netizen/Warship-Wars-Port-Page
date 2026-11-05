@@ -84,6 +84,8 @@ html, body {
   background-color:  #115e78;
   margin-left: 42px;
   margin-right: 42px;
+  border: 1px solid #0887c2;
+  border-radius: 6px;
 }
 
 #AutoScroller {
