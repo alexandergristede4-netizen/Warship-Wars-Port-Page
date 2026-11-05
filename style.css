@@ -7,7 +7,7 @@
             display: flex;
             justify-content: center;
             align-items: center;
-            
+            flex-direction: column;
         }
 
 
@@ -73,4 +73,17 @@ body {
 .nav-links a:hover {
   color: #e0e0e0;     
 }
-
+#MainText {
+   size: 20px;
+   color: #110b42;
+   font-family: sans-serif;
+   text-decoration: bold;
+   text-align: left;
+  }
+#AutoScroller {
+text-decoration: none;
+  color: #110b42;
+  font-family: sans-serif;
+  size: 10px
+  text-align: center;
+}
