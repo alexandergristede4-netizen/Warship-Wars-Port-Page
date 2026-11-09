@@ -27,6 +27,7 @@ html, body {
   text-align: center;
   font-weight: bold;
   box-shadow: 0rem 0rem 0.313rem rgba(0,0.1,0.2,0.3);
+  align-self: center;
 }
 
 .button-link:hover {
@@ -93,6 +94,7 @@ html, body {
   box-shadow: 0 0 1.25rem 0.313rem #9ecde8, inset 0 0 0.938rem 0.125rem #9ecde8;
   word-wrap: break-word;
   padding: 2.5rem;
+  align-self: center;
 }
 
 #AutoScroller {
@@ -102,6 +104,7 @@ html, body {
   font-size: 1.5rem; 
   text-align: center;
   box-shadow: 0 0 1.25rem 0.313rem #9ecde8, inset 0 0 0.938rem 0.125rem #9ecde8;
+  align-self: center;
 }
 #logo {
   box-shadow: 0rem 0rem 0.313rem rgba(0,0.1,0.2,0.3);
