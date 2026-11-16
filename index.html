@@ -21,6 +21,21 @@
   </ul>
 </nav>
 <main class="content-wrapper"><h1 id = "top"></h1>
+<script>
+ window.addEventListener('error', function (event) {
+  console.error(
+    `[${new Date().toISOString()}] ${event.message}\n` +
+    `  File: ${event.filename}\n` +
+    `  Line ${event.lineno}, column ${event.colno}`
+  );
+});
+
+ window.addEventListener('error', function (event) {
+  if (event.target.tagName === 'LINK') {
+    console.error(`[${new Date().toISOString()}] Failed to load: ${event.target.href}`);
+  }
+}, true);
+</script>
  <section>
   <img id = "logo" src = "images/wwicon.png" alt = "Logo">
  </section>
