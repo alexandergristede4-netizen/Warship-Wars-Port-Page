@@ -3,6 +3,9 @@
 <head>
 <meta charset = "utf-8" lang = "en">
 <title>Port- WW</title>
+ <script src = "script.js">
+ 
+</script>
 <link rel="icon" type="image/x-icon" href="images/wwicon.png">
 <link rel="stylesheet" href = "main/style.css">
 </head>
@@ -21,21 +24,7 @@
   </ul>
 </nav>
 <main class="content-wrapper"><h1 id = "top"></h1>
-<script>
- window.addEventListener('error', function (event) {
-  console.error(
-    `[${new Date().toISOString()}] ${event.message}\n` +
-    `  File: ${event.filename}\n` +
-    `  Line ${event.lineno}, column ${event.colno}`
-  );
-});
 
- window.addEventListener('error', function (event) {
-  if (event.target.tagName === 'LINK') {
-    console.error(`[${new Date().toISOString()}] Failed to load: ${event.target.href}`);
-  }
-}, true);
-</script>
  <section>
   <img id = "logo" src = "images/wwicon.png" alt = "Logo">
  </section>
@@ -58,11 +47,6 @@
 
  <section>
    <a id = "AutoScroller" href = "#top"class = "button-link">Scroll to top</a>
- </section>
- <section>
-  <script>
-   console.log("This page has executed with 0 errors.");
-  </script>
  </section>
 
 </main>
